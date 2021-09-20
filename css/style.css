@@ -1,0 +1,418 @@
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #230B59;
+  font-family: 'Roboto',
+    sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+button {
+  font: inherit;
+  outline: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+
+.nav-link {
+  font-size: 16px;
+  line-height: 27px;
+  color: #230B59;
+  padding: 0 23px;
+}
+
+.btn {
+  background-color: #4840BB;
+  border: 1px solid #4840BB;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 11px 16px;
+}
+
+.button-block {
+  margin-top: 15px;
+}
+
+.header-btn:first-child {
+  background-color: #fff;
+  color: #4840BB;
+  margin-right: 12px;
+}
+
+.acquaintance {
+  display: flex;
+  align-items: center;
+}
+
+.acquaintance-item:last-child {
+  margin-left: 64px;
+}
+
+.acquaintance-title {
+  font-size: 50px;
+  line-height: 57px;
+  letter-spacing: 1.899px;
+  max-width: 400px;
+}
+
+.acquaintance-subtitle {
+  font-size: 15px;
+  line-height: 22px;
+  margin: 39px 0;
+  max-width: 300px;
+}
+
+.achievements {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.achievements-title {
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 0.9495px;
+  margin-bottom: 9px;
+}
+
+.achievements-text {
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.achievements-img {
+  position: relative;
+  top: 10px;
+}
+
+.investing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding: 64px;  
+}
+
+.investing-item:first-child {
+  flex-basis: 31%;
+}
+
+.investing-item:nth-child(2) {
+  margin-left: 60px;
+  margin-right: 40px;
+}
+
+.title {
+  font-size: 56px;
+  line-height: 54px;
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  font-size: 17px;
+  line-height: 22px;
+  margin-top: 8px;
+}
+
+.investing-btn:last-child {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #4840BB;
+  margin-top: 40px;
+  margin-left: 32px;
+}
+
+.investing-benefits {
+  max-width: 256px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+  margin-top: 44px;
+  padding: 15px 10px;
+  position: relative;
+  top: -140px;
+}
+
+.investing-benefits:last-child {
+  left: -80px;
+  background-color: rgba(255,255,255,0.6);
+}
+
+.investing-benefits__title {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  line-height: 16px;
+  text-transform: uppercase;  
+}
+
+.investing-benefits__title img {
+  margin-right: 3px;
+}
+
+.investing-benefits__title span {
+  font-size: 10px;
+  line-height: 16px;
+  text-transform: lowercase;
+  margin-left: auto;
+}
+
+.investing-benefits__text {
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 14px;
+}
+
+.investing-cash {
+  display: flex;
+}
+
+.investing-cash__item:first-child {
+  position: relative;
+  left: 59px;
+  top: 24px;
+  z-index: 1;
+}
+
+.investing-cash__item:nth-child(2) {
+  position: relative;
+  z-index: 2;
+}
+
+.investing-cash__item:last-child {
+  flex-basis: 27%;
+  margin-left: 31px;
+}
+
+#investing-saving {
+  background-color: #4840BB;
+  color: #fff;
+  padding: 25px 0;
+}
+
+.saving {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.saving-item:first-child {
+  max-width: 384px;
+}
+
+.saving-title {
+  font-size: 56px;
+  line-height: 54px;
+  letter-spacing: 3px;
+}
+
+.saving-text {
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 16px;
+}
+
+#testimonial-block {
+  background-color: #230B59;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  top: 180px;
+}
+
+.review-item {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  height: 450px;
+  padding: 47px 10px 15px 40px;
+  margin-top: 15px;
+}
+
+.review-title {
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+.review-text {
+  font-size: 42px;
+  line-height: 42px;
+  letter-spacing: 1.26px;
+  margin-top: 32px;
+  margin-bottom: auto;
+}
+
+.review-text span { 
+  font-weight: bold
+}
+
+.review-user {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.users-title {
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 3px;
+  max-width: 911px;
+  margin-top: 60px;
+}
+
+.users-title span {
+  font-weight: bold;
+}
+
+.users-btn {
+  margin-top: 48px;
+}
+
+.parners-text {
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-top: 45px;
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #18172B;
+  color: #fff;
+  margin-top: 150px;
+  padding-top: 64px;
+  padding-bottom: 34px;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer-lists {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.list-item {
+  margin-bottom: 32px;
+  margin-right: 56px;
+}
+
+.list-link {
+  font-size: 15px;
+  line-height: 27px;
+}
+
+hr {
+  background-color: #fff;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 10px;
+  line-height: 16px;
+  color: #B7B7C0;
+  margin-top: 20px;
+}
+
+

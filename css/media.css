@@ -1,0 +1,241 @@
+@media (max-width: 1350px) {
+  .container {
+    width: 97%;
+  }
+}
+
+@media (max-width: 992px) {
+  .investing-cash__item:first-child {
+    left: 40px;
+    top: 16px;
+  }
+  .investing-benefits:last-child {
+    left: -76px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-wrap: wrap;
+  }
+  .navbar {
+    order: 1;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .acquaintance-title {
+    font-size: 34px;
+    line-height: 35px;
+  }
+  .acquaintance-subtitle {
+    margin: 17px 0;
+  }
+  .achievements-title {
+    font-size: 21px;
+    line-height: 15px;
+  }
+  .investing {
+    flex-wrap: wrap;
+    margin-top: 55px;
+  }
+  .investing-item:first-child {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .investing-benefits {
+    position: relative;
+    top: 30px;
+  }
+  .investing-benefits:last-child {
+    left: 0;
+  }
+  .investing-cash__item:first-child {
+    display: none;
+  }
+  .investing-cash__item:last-child {
+    order: 1;
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .investing-cash__item:nth-child(2) {
+    order: 2;
+    margin-top: 35px;
+  }
+  .review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .partners {
+    flex-direction: column;
+  }
+  .partners-item {
+    margin-top: 15px;
+  }
+  .list-item {
+    margin-bottom: 32px;
+    margin-right: 45px;
+  }
+  .acquaintance-title {
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .achievements {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .achievements-item {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .saving {
+    flex-direction: column;
+  }
+  .saving-item {
+    margin-bottom: 25px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer-lists {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+}
+
+@media(min-width:450px) and (max-width: 576px) {
+  .acquaintance {
+    flex-direction: column;
+  }
+  .acquaintance-item:last-child {
+    margin-left: 0;
+  }
+  .acquaintance-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .list-item {
+    margin-bottom: 32px;
+    margin-right: 25px;
+  }
+  .achievements {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .achievements-item {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .saving {
+    flex-direction: column;
+  }
+
+  .saving-item {
+    margin-bottom: 25px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-lists {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+}
+
+@media(min-width: 320px) and (max-width: 450px) {
+  .header {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 25px;
+  }
+  .navbar {
+    order:initial;
+    margin-bottom: 25px;
+  }
+  .nav-link {
+    padding: 0 17px;
+  }
+  .acquaintance {
+    flex-direction: column;
+  }
+  .acquaintance {
+    flex-direction: column;
+  }
+
+  .acquaintance-item:last-child {
+    margin-left: 0;
+  }
+
+  .acquaintance-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .list-item {
+    margin-bottom: 32px;
+    margin-right: 25px;
+  }
+  .achievements {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .achievements-item {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .saving {
+    flex-direction: column;
+  }
+
+  .saving-item {
+    margin-bottom: 25px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-lists {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+  .investing-cash__img {
+    max-width: inherit;
+  }
+  .review-text {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .users-title {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .list-link {
+    font-size: 11px;
+    line-height: 27px;
+  }
+  .list-item {
+    margin-bottom: 25px;
+    margin-right: 14px;
+  }
+}
